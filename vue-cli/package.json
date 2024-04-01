@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@nutui/icons-vue": "^0.1.1",
-    "@nutui/nutui": "^4.3.3",
+    "@nutui/nutui": "^4.3.4",
     "@nutui/touch-emulator": "^1.0.0",
     "core-js": "^3.36.1",
     "sass-loader": "^13.3.3",
@@ -23,7 +23,7 @@
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
+    "eslint-plugin-vue": "^9.24.0",
     "sass": "^1.72.0",
     "unplugin-vue-components": "^0.26.0"
   },
