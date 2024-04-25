@@ -15,6 +15,6 @@
 ├── cdn             NutUI CDN
 ├──
 ├── vite-jdt        NutUI JDT 主题
+├── taro-jdt        NutUI + Taro JDT 主题
 
 ```
-
