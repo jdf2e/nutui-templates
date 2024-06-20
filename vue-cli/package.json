@@ -9,22 +9,22 @@
   },
   "dependencies": {
     "@nutui/icons-vue": "^0.1.1",
-    "@nutui/nutui": "^4.3.8",
+    "@nutui/nutui": "^4.3.10",
     "@nutui/touch-emulator": "^1.0.0",
-    "core-js": "^3.37.0",
+    "core-js": "^3.37.1",
     "sass-loader": "^14.2.1",
-    "vue": "^3.4.27"
+    "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/eslint-parser": "^7.24.5",
+    "@babel/core": "^7.24.7",
+    "@babel/eslint-parser": "^7.24.7",
     "@nutui/auto-import-resolver": "^1.0.0",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.26.0",
-    "sass": "^1.77.1",
+    "sass": "^1.77.6",
     "unplugin-vue-components": "^0.27.0"
   },
   "eslintConfig": {
