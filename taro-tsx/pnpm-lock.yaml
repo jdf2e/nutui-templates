@@ -1940,8 +1940,17 @@ packages:
     resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
     engines: {node: '>=0.4.0'}
 
+  acorn-walk@8.3.5:
+    resolution: {integrity: sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==}
+    engines: {node: '>=0.4.0'}
+
   acorn@8.12.0:
     resolution: {integrity: sha512-RTvkC4w+KNXrM39/lWCUaG0IbRkWdCv7W/IOW9oU6SawyxulvkQy5HQPVTKxEjczcUvapcrw3cFx/60VN/NRNw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.16.0:
+    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -3291,11 +3300,13 @@ packages:
   eslint@8.41.0:
     resolution: {integrity: sha512-WQDQpzGBOP5IrXPo4Hc0814r4/v2rrIsB0rhT7jtunIalgg6gYXWhRMOejVO8yH21T/FGaxjmFjBMNqcIlmH1Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@9.6.1:
@@ -4475,6 +4486,7 @@ packages:
 
   metro-react-native-babel-preset@0.72.4:
     resolution: {integrity: sha512-YGCVaYe1H5fOFktdDdL9IwAyiXjPh1t2eZZFp3KFJak6fxKpN+q5PPhe1kzMa77dbCAqgImv43zkfGa6i27eyA==}
+    deprecated: Use @react-native/babel-preset instead
     peerDependencies:
       '@babel/core': '*'
 
@@ -6168,10 +6180,9 @@ packages:
     resolution: {integrity: sha512-ZZKSmDAEFOijERBLkmYfJ+vmk3w+7hOLYDNkRCuRuMJGEmqYNCNLyBBFwWKVMhfwaEF3WOd0Zlw86U/WC/+nYw==}
     engines: {'0': node >=0.6.0}
 
-  vm2@3.9.19:
-    resolution: {integrity: sha512-J637XF0DHDMV57R6JyVsTak7nIL8gy5KH4r1HiwWLf/4GBbb5MKL5y7LpmF4A8E2nR6XmzpmMFQ7V7ppPTmUQg==}
+  vm2@3.11.3:
+    resolution: {integrity: sha512-DO1TTKuOc+veL11VNOvJwRab80mghFKE40Av3bl6pdXs11bdiDMuR73owy+dS2EsTZEvRUeBkkBuDVRjV/RgEw==}
     engines: {node: '>=6.0'}
-    deprecated: The library contains critical security issues and should not be used for production! The maintenance of the project has been discontinued. Consider migrating your code to isolated-vm.
     hasBin: true
 
   vue-eslint-parser@9.4.3:
@@ -7987,7 +7998,7 @@ snapshots:
       '@tarojs/runtime': 3.6.26(@tarojs/shared@3.6.26)
       '@tarojs/service': 3.6.26(@tarojs/shared@3.6.26)(@tarojs/taro@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))
       '@tarojs/shared': 3.6.26
-      '@tarojs/taro-h5': 3.6.26(@tarojs/components@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))(@tarojs/taro@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))
+      '@tarojs/taro-h5': 3.6.26(@tarojs/components@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(@tarojs/shared@3.6.26)(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))(@tarojs/taro@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))
       babel-plugin-transform-taroapi: 3.6.26
       change-case: 4.1.2
       lodash-es: 4.17.21
@@ -8097,7 +8108,7 @@ snapshots:
 
   '@tarojs/shared@3.6.26': {}
 
-  '@tarojs/taro-h5@3.6.26(@tarojs/components@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))(@tarojs/taro@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))':
+  '@tarojs/taro-h5@3.6.26(@tarojs/components@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(@tarojs/shared@3.6.26)(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))(@tarojs/taro@3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5)))':
     dependencies:
       '@tarojs/api': 3.6.26
       '@tarojs/components': 3.6.26(@tarojs/helper@3.6.26)(@tarojs/runtime@3.6.26(@tarojs/shared@3.6.26))(@tarojs/shared@3.6.26)(postcss@8.4.38)(vue@3.4.29(typescript@5.4.5))
@@ -8220,7 +8231,7 @@ snapshots:
       stylus-loader: 6.2.0(stylus@0.55.0)(webpack@5.92.1(@swc/core@1.3.96))
       terser-webpack-plugin: 5.3.10(@swc/core@1.3.96)(esbuild@0.19.12)(webpack@5.92.1(@swc/core@1.3.96))
       url-loader: 4.1.0(file-loader@6.0.0(webpack@5.92.1(@swc/core@1.3.96)))(webpack@5.92.1(@swc/core@1.3.96))
-      vm2: 3.9.19
+      vm2: 3.11.3
       vue-loader: 15.11.1(@vue/compiler-sfc@3.4.29)(css-loader@6.11.0(webpack@5.92.1(@swc/core@1.3.96)))(lodash@4.17.21)(webpack@5.92.1(@swc/core@1.3.96))
       webpack: 5.92.1(@swc/core@1.3.96)
       webpack-chain: 6.5.1
@@ -8853,7 +8864,13 @@ snapshots:
     dependencies:
       acorn: 8.12.0
 
+  acorn-walk@8.3.5:
+    dependencies:
+      acorn: 8.16.0
+
   acorn@8.12.0: {}
+
+  acorn@8.16.0: {}
 
   address@1.2.2: {}
 
@@ -11576,7 +11593,7 @@ snapshots:
 
   mlly@1.7.1:
     dependencies:
-      acorn: 8.12.0
+      acorn: 8.16.0
       pathe: 1.1.2
       pkg-types: 1.1.1
       ufo: 1.5.3
@@ -13270,10 +13287,10 @@ snapshots:
       core-util-is: 1.0.2
       extsprintf: 1.3.0
 
-  vm2@3.9.19:
+  vm2@3.11.3:
     dependencies:
-      acorn: 8.12.0
-      acorn-walk: 8.3.3
+      acorn: 8.16.0
+      acorn-walk: 8.3.5
 
   vue-eslint-parser@9.4.3(eslint@8.57.0):
     dependencies:
