@@ -56,7 +56,7 @@
     "vue": "^3.4.29"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.7",
+    "@babel/core": "^7.29.6",
     "@nutui/auto-import-resolver": "^1.0.0",
     "@tarojs/cli": "3.6.26",
     "@tarojs/taro-loader": "3.6.26",
